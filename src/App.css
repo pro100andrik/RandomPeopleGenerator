@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico&display=swap');
+
+body {
+  margin: 0;
+  background-color: grey;
+  margin-top: 0px;
+  font-family: 'Quantico', sans-serif;
+  font-size: 150%;
+  font-weight: bold;
+  color: white;
+}
+
+.main-wrapper {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  border-radius: 20px;
+  margin: 20px;
+  padding: 10px;
+  background: rgb(91, 221, 30);
+  text-align: center;
+}
+
+.caption {
+  font-size: 40px;
+}
+
+
+
+/* user info block */
+
+.user-info > div {
+  margin: 10px auto;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.user-avatar img {
+  border-radius: 100%;
+}
+
+/* loading styles */
+
+.user-avatar-loading div {
+  margin: auto;
+  width: 128px;
+  height: 128px;
+  border-radius: 100%;
+
+}
+
+.user-field-loading {
+  border-radius: 20px;
+  width: 80%;
+  height: 35px;
+  margin: auto;
+  background: #eee;
+  overflow: hidden;
+}
+
+
+@keyframes placeHolderShimmer{
+    0%{
+        background-position: -468px 0
+    }
+    100%{
+        background-position: 468px 0
+    }
+}
+
+.animated-background {
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: darkgray;
+    background: linear-gradient(to right, #eeeeee 10%, #dddddd 18%, #eeeeee 33%);
+    background-size: 800px 104px;
+    height: 100px;
+    position: relative;
+}
