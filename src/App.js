@@ -45,6 +45,7 @@ class App extends React.Component {
           <div className='tittle-and-controlls'>
             <div> Welcome to "Random People Generator" </div>
             <div> To start generation press button "Generate" </div>
+            <div class='credits'> All data are taken from <a href="https://randomuser.me/api">https://randomuser.me/api</a></div>
             <button onClick={this.generateNewPerson}> Generate </button>
           </div>
 

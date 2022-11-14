@@ -32,6 +32,10 @@ body {
   font-size: 40px;
 }
 
+.credits {
+  font-size: 50%;
+}
+
 button {
   margin-top: 10px;
   font-family: 'Quantico', sans-serif;
