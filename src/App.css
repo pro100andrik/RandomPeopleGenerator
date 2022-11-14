@@ -2,7 +2,7 @@
 
 body {
   margin: 0;
-  background-color: grey;
+  background-image: linear-gradient( 95.2deg, rgba(173,252,234,1) 26.8%, rgba(192,229,246,1) 64% );
   margin-top: 0px;
   font-family: 'Quantico', sans-serif;
   font-size: 150%;
@@ -24,11 +24,28 @@ body {
   margin: 20px;
   padding: 10px;
   background: rgb(91, 221, 30);
+  box-shadow: 0 0 10px 10px rgb(91, 221, 30);
   text-align: center;
 }
 
 .caption {
   font-size: 40px;
+}
+
+button {
+  margin-top: 10px;
+  font-family: 'Quantico', sans-serif;
+  font-size: 130%;
+  font-weight: bold;
+  color: rgb(91, 221, 30);
+  background: rgba(255, 255, 255, 1);
+  cursor: pointer;
+
+  border: 3px solid white;
+  box-shadow: 0 0 5px 0 white,
+              inset 0 0 5px 0 white;
+  border-radius: 15px;
+  padding: 0 5px;
 }
 
 
