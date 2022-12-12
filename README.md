@@ -1,1 +1,1 @@
-This is timer to track time writed on ReactJS using Hooks
+This is random people generator working with https://randomuser.me/api
